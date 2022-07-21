@@ -76,8 +76,46 @@
 // console.log("ab" + 1234)
 // console.log("100" + 1 + 1 +1)
 
-// console.log('1' - '2')
-// console.log('1' - 2)
-// console.log(1 - '2')
-// console.log(100- 1 - '2')
+// console.log('1' + null)
+// console.log(100 + null)
+// console.log(1 * '2')
+// console.log(100 * 1 + '2')
+// console.log('100' * '1' * '2')
 
+
+// true == "true"
+
+//  console.log(true >= "false")
+//  console.log(true <= "true")
+//  console.log(true == "false")
+//  console.log(true <= "false")
+//  console.log(false >= "true")
+//  console.log(false <= "false")
+//  console.log(false == "true")
+//  console.log(false == "false")
+//  console.log(false < "true")
+//  console.log(true > "true")
+//  console.log(true < "true")
+
+
+// console.log(4 / "CFI")
+// console.log(100 - "CFI")
+
+// console.log(1/0 )
+// console.log(1/Infinity)
+// console.log(Infinity/Infinity)
+// console.log(-Infinity/0)
+// console.log(Infinity/0)
+// console.log(typeof Infinity)
+
+// console.log( NaN == NaN )
+// console.log ( NaN === NaN )
+
+//Ternary operator (?:)
+// condition ? true statement : false statement
+
+// var a = 2
+// a>3 ? console.log("yes") : console.log("no")
+
+
+ 
