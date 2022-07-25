@@ -80,7 +80,6 @@
 //replace 
 // let text = "chekri is a good boy";
 // console.log(text.replace(/chekri|good/gi, "bad"))
-
 // local / global scope
 
 
