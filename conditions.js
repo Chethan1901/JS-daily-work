@@ -100,15 +100,40 @@
 //     console.log("equal")
 // }
 
-// function compare(num1, num2, num3) {
-// 	if (num3 > num2 && num1 > num3) {
-// 		return num1 + ' is the biggest number';
-// 	} else if (num2 > num1 && num2 > num3) {
-// 		return num2 + ' is the biggest number';
-// 	} else {
-// 		return num3 + ' is the biggest number';
-// 	}
-// }
-// var results = compare(10, 20, 30);
-// console.log(results);
+
+//bonus question
+
+let a = 7
+let b = 4
+let c = 5
+
+if (a==b && b==c)
+{
+    console.log("a,b,c are equal") 
+}
+else if (a==b && c<a)
+{
+    console.log("a,b are equal and C is the smallest number'") 
+}
+else if (b==c && a<b)
+{
+    console.log("b,c are equal and A is the smallest number'") 
+}
+else if (c==a && b<c)
+{
+    console.log("a,c are equal and B is the smallest number'") 
+}
+else if (a > b && a > c) 
+{
+		console.log("a is the biggest number'") 
+} 
+else if (b > a && b > c) {
+
+		console.log("b is the biggest number'") 
+} 
+else 
+{
+        console.log("c is the  biggest number")
+}
+
 
