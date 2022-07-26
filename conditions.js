@@ -86,73 +86,128 @@
 //     console.log("not questioned")
 // }
 
-// let a = 5                                     //use strings as well 
-// let b = 5
+// let a = 2         //use strings as well 
+// let b ="jhguy"
+// if(+a && +b){
+// console.log("bjvj")
+// }
+// else
+// {console.log("mhgkyuhjb")}
 
-// if(a>b){
-// console.log("a is greater")
+// if(typeof(a)==typeof(b)){
+//     if (a==b){
+//         console.log("equal")
+//     }
+//     else if (a>b){
+//         console.log("a is greater than b")
+//     }
+//     else {
+//         console.log("a is smaller than b")
+//     }
 // }
-// else if (b>a)
+// else
 // {
-//     console.log("b is greater")
+//     console.log("invalid")
 // }
-// else {
-//     console.log("equal")
-// }
+
 
 
 //bonus question
 
-let a = 7
-let b = 4
-let c = 5
+// let a = 7
+// let b = 4=
+// let c = 5
 
-if (a==b && b==c)
-{
-    console.log("a,b,c are equal") 
-}
-else if (a==b && c<a)
-{
-    console.log("a,b are equal and C is the smallest number'") 
-}
-else if (b==c && a<b)
-{
-    console.log("b,c are equal and A is the smallest number'") 
-}
-else if (c==a && b<c)
-{
-    console.log("a,c are equal and B is the smallest number'") 
-}
-else if (a > b && a > c) 
-{
-		console.log("a is the biggest number'") 
-} 
-else if (b > a && b > c) {
+// if (a==b && b==c)
+// {
+//     console.log("a,b,c are equal") 
+// else if (a==b && c<a)
+// {
+//     console.log("a,b are equal and C is the smallest number'") 
+// }
+// else if (b==c && a<b)
+// {
+//     console.log("b,c are equal and A is the smallest number'") 
+// }
+// else if (c==a && b<c)
+// {
+//     console.log("a,c are equal and B is the smallest number'") 
+// }
+// else if (a > b && a > c) 
+// {
+// 		console.log("a is the biggest number'") 
+// } 
+// else if (b > a && b > c) {
 
-		console.log("b is the biggest number'") 
-} 
-else 
-{
-        console.log("c is the  biggest number")
-}
+// 		console.log("b is the biggest number'") 
+// } 
+// else 
+// {
+//         console.log("c is the  biggest number")
+// }
 
-// palindrome check using push,pop and if conditions
-var empty = []
-var word = "nmpr"
-var rword = ""
+// // palindrome check using push,pop and if conditions
+// var empty = []
+// var word = "nmpr"
+// var rword = ""
 
-for (var i =0; i<word.length; i++){
-    empty.push(word[i]);
-}
+// for (var i =0; i<word.length; i++){
+//     empty.push(word[i]);
+// }
 
-for (var i =0; i<word.length; i++){
-    rword += empty.pop();
-}
+// for (var i =0; i<word.length; i++){
+//     rword += empty.pop();
+// }
 
-if(rword === word){
-    console.log(word+ "is a palindrome")
-}
-else {
-    console.log(word+ "is not a palindrome")
-}
+// if(rword === word){
+//     console.log(word+ "is a palindrome")
+// }
+// else {
+//     console.log(word+ "is not a palindrome")
+// }
+
+// let a = 11
+
+// if (a<0){
+//     console.log("a is less than zero")
+// }
+// else if (a>=0 && a<=5) {
+//     console.log("a is in between 0 and 5")
+// }
+// else if (a>=6 && a<=10) {
+//     console.log("a is in between 6 and 10")
+// }
+// else if (a>=11 && a<=15) {
+//     console.log("a is in between 11 and 15")
+// }
+// else if (a>=16 && a<=20) {
+//     console.log("a is in between 16 and 20")
+// }
+// else if (a>=21 && a<=25) {
+//     console.log("a is in between 21 and 25")
+// }
+// else if (a>=26 && a<=30) {
+//     console.log("a is in between 26 and 30")
+// }
+// else {
+//     console.log("a is greater than 30")
+// }
+
+
+// a = 25
+// if (((a%3)==0) || ((a%5)==0)){
+//     if(((a%3)==0) && ((a%5)==0)){
+//     console.log(" by both")
+//     }
+//     else if((a%3)==0){
+//         console.log("by 3")
+//     }
+//     else if((a%5)==0){
+//         console.log("by 5")
+//     }
+// }
+// else {
+//     console.log("not by both")
+// }
+
 
