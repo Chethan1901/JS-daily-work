@@ -115,12 +115,13 @@
 //bonus question
 
 // let a = 7
-// let b = 4=
-// let c = 5
+// let b = 4
+// let c = 7
 
 // if (a==b && b==c)
 // {
 //     console.log("a,b,c are equal") 
+// }
 // else if (a==b && c<a)
 // {
 //     console.log("a,b are equal and C is the smallest number'") 
