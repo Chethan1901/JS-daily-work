@@ -20,6 +20,8 @@
 //     console.log(word+ " is not a palindrom")
 // }
 
+
+// Assigment questions
 //1.question
 
 // 1st method                                           
@@ -139,15 +141,15 @@
 
 // let root1, root2;
 
-// let a = 1;                                                                                          //Intialising the value of a 
-// let b = 8;                                                                                          //Intialising the value of b
-// let c = 16;                                                                                          //Intialising the value of c
+// let a = 1;                                                                                          //Intializing the value of a 
+// let b = 8;                                                                                          //Intializing the value of b
+// let c = 16;                                                                                          //Intializing the value of c
 
 // let D = b * b - 4 * a * c;                                                                          //to find the nature of roots
 
 // if (D > 0) {                                                                                        //condition: if roots are > 0
-//     root1 = (-b + Math.sqrt(D)) / (2 * a);                                                          //Intialising  root1
-//     root2 = (-b - Math.sqrt(D)) / (2 * a);                                                          //Intialising  root1
+//     root1 = (-b + Math.sqrt(D)) / (2 * a);                                                          //Intializing  root1
+//     root2 = (-b - Math.sqrt(D)) / (2 * a);                                                          //Intializing  root1
 //     console.log(`The roots of quadratic equation ${root1} and ${root2} are real and different`);    //statement
 // }
 
@@ -158,11 +160,12 @@
 
 
 // else {                                                                                              //else case
-//     let realPart = (-b / (2 * a)).toFixed(2);                                                       //Intialising real part
-//     let imagPart = (Math.sqrt(-D) / (2 * a)).toFixed(2);                                            //Intialising  imaginary part
+//     let realPart = (-b / (2 * a)).toFixed(2);                                                       //Intializing real part
+//     let imagPart = (Math.sqrt(-D) / (2 * a)).toFixed(2);                                            //Intializing  imaginary part
 
 //     console.log(
 //     `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i are Imaginary`
 //   );
 // }
+
 

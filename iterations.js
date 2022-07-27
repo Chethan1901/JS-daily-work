@@ -158,16 +158,16 @@
 //     i+=2
 //  }
 
-a = {1:'abc',2:'bcd',3:'cde',4:'def',}
+// a = {1:'abc',2:'bcd',3:'cde',4:'def',}
 
 
-m = Object.keys(a)
-n = Object.values(a)
+// m = Object.keys(a)
+// n = Object.values(a)
 
-i = 0;
- while(i <=(m.length-1)){
-console.log(`${m[i]}:${n[i]}`)
-i++
- }
+// i = 0;
+//  while(i <=(m.length-1)){
+// console.log(`${m[i]}:${n[i]}`)
+// i++
+//  }
 
 
