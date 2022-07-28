@@ -1,32 +1,46 @@
-//palindrome
-// var emptb = []
-// var word = "bcba"
-// var rword = ""
+// 1st_bonus question
+// let a = 5
+// let b = 3
+// let c = 1
+// if ((a==b) || (b==c) || (c==a)) {                                      //condition: if any value is equal to another one then execute        
+//     if((a==b) && (c<a)){                                               // nested if condition
+//         console.log("a,b are equal and C is the smallest number")      // statement
+//     }
+//     else if (b==c && a<b)                                              // else if condition
+//     {
+//         console.log("b,c are equal and A is the smallest number")      // statement
+//     }
+//     else if (c==a && b<c)                                              // else if condition
+//     {
+//         console.log("a,c are equal and B is the smallest number")      // statement
+//     }
+//     else {                                                             //  else 
+//         console.log("a,b,c are equal")                                 // statement
+//     }
+// }
+// else {                                                                 // external else 
+//     if (a > b && a > c)                                                // we can  give if condition in else part
+//     {
+//             console.log("a is the biggest number'")                    // statement
+//     }
+//     else if (b > a && b > c) {                                         // else if condition
+//             console.log("b is the biggest number'")                    // statement  
+//     }
+//     else                                                               // else
+//     {
+//             console.log("c is the  biggest number")                    // statement
+//     }
+// }
 
-// for (var i =0; i<word.length; i++){
-//     emptb.push(word[i]);
-// }
-// // console.log(word.split(" "))
-// empty = word.split("");
 
-// for (var i =0; i<word.length; i++){
-//     rword += empty.pop();
-// }
-
-// if(rword === word){
-//     console.log(word+ " is a palindrome")
-// }
-// else {
-//     console.log(word+ " is not a palindrom")
-// }
 
 
 // Assigment questions
 //1.question
 
 // 1st method                                           
-// var a = -8                                                                  //intialization
-// console.log(Math.abs(a))                                                    //using in-built function 
+// var a = -8                                                               //intialization
+// console.log(Math.abs(a))                                                 //using in-built function 
 
 // 2nd method
 // var a = "-8"                                                            
@@ -37,6 +51,9 @@
 // else {                                                                   //else case 
 //     console.log(b)
 // }
+
+
+
 
 //2.question
 
@@ -71,6 +88,8 @@
 // }
 
 
+
+
 // 3.question
 
 // const amount = 100;                                                     // Intialization & defining & declaring using const
@@ -86,12 +105,15 @@
 //     console.log(price)                                                  // else case 
 // }
 
+
+
+
 //4.question
 
 // let a = 2.6                                                                                                                 
 // let b = 4
 
-// switch (8) {                                                            // Using switch case
+// switch (2) {                                                            // Using switch case
 //   case 0:                                                               // case 0
 //     addition = (a+b);                                                   // adding two numbers
 //     console.log(addition)
@@ -99,7 +121,7 @@
 
 //   case 1:                                                               //case 1
 //     subtraction = (a-b)                                                 // subtracting two numbers
-//     console.log()
+//     console.log(subtraction)
 //     break;
 
 //     case 2:                                                             //case 2
@@ -124,17 +146,21 @@
 
 //     case 6:                                                            //case 6
 //     floory = Math.floor(a)                                             //rounds a number DOWN to the nearest integer.
-//     console.log(floor)
+//     console.log(floory)
 
 //     case 7:                                                            //case 7
 //     ceili = Math.ceil(a)                                               //rounds a number UP to the nearest integer.
-//     console.log(ceil)
+//     console.log(ceili)
 //     break;
 
 //   default:                                                             // if no value is equal to given case then nothing happens by default 
-//                                                                        //if there is no match, the default code block is executed.
+//     console.log("enter valid defined number")                          //if there is no match, the default code block is executed.
 
 // }
+
+
+
+
 
 
 //5
@@ -143,7 +169,7 @@
 
 // let a = 1;                                                                                          //Intializing the value of a 
 // let b = 8;                                                                                          //Intializing the value of b
-// let c = 16;                                                                                          //Intializing the value of c
+// let c = 16;                                                                                         //Intializing the value of c
 
 // let D = b * b - 4 * a * c;                                                                          //to find the nature of roots
 
@@ -165,7 +191,7 @@
 
 //     console.log(
 //     `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i are Imaginary`
-//   );
+//   );                                                                                                 //statement
 // }
 
 

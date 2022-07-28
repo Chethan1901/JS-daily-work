@@ -8,17 +8,15 @@
 // }
 
 // printing tables using while loop
-// var table = 1                                                             // intialization
-
-// while(table < 5){                                                         // condition: if table value is less than 5 then execute
-//    table++;                                                               // Increment
-//    var i = 1                                                              // intializing "i" value
-//    while(i <= 10){                                                        // condition: if "i" value is less than or equal to 10 then execution happens
-//       i++;                                                                // Increment
-//    console.log(table + " * " + (i) + " = " + (table * (i)));              // output
+// var table = 2                                                                // intialization
+// while(table <= 5){                                                           // condition: if table value is less than 5 then execute
+//    i = 1                                                                     // intializing "i" value
+//    while(i <= 10){                                                           // condition: if "i" value is less than or equal to 10 then execution happens
+//    console.log(table + " * " + (i) + " = " + (table * (i)));    
+//    i++;                                                                      // Increment
 //    }
-  
-//    console.log("----------");                                             // adding line between each iteration
+//    table++;                                                                  // Increment
+//    console.log("----------");                                                // adding line between each iteration
 // }
 
 //1st.question
