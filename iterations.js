@@ -215,9 +215,16 @@
 // b = s.slice(s[1],s.length-2)
 // console.log(b)
 
-// var a ="*"
+// var a ="1"
 // b=""
 // for(i=1;i<=5;i++){
+//    b=a+b
+//    console.log(b)
+// }
+
+// var a ="*"
+// b=""
+// for(i=1;i<=10;i++){
 //    b=a+b
 //    console.log(b)
 // }
@@ -232,3 +239,37 @@
 // }
 // console.log(a);
 
+
+// var a ="* * * * * "                                           //do it another way
+// // var b='';
+// for (i=0;i<=a.length-1;i++){
+//     b=a.slice((i))
+//     console.log(b)
+// }
+
+// var a ="1"
+// for(let i =0;i<=10;i++){
+
+//    a+=i
+//     console.log(a)
+// }
+
+// a = '';
+// for(let i=1; i<=5; i++){
+//   for(let j=1; j<=5-i; j++){
+//     a += ' ';
+//   }
+//   for(let k=1; k<=i; k++){
+//     a += '*';
+//   }
+//   a += '\n';
+// }
+// console.log(a)
+
+// count = 0
+// for(let i=1; i<=5; i++){
+// count++
+// console.log(count)
+// }
+
+ 

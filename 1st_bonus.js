@@ -6,11 +6,11 @@
 //     if((a==b) && (c<a)){                                               // nested if condition
 //         console.log("a,b are equal and C is the smallest number")      // statement
 //     }
-//     else if (b==c && a<b)                                              // else if condition
+//     else if ((b==c) && (a<b))                                              // else if condition
 //     {
 //         console.log("b,c are equal and A is the smallest number")      // statement
 //     }
-//     else if (c==a && b<c)                                              // else if condition
+//     else if ((c==a) && (b<c))                                              // else if condition
 //     {
 //         console.log("a,c are equal and B is the smallest number")      // statement
 //     }
@@ -19,11 +19,11 @@
 //     }
 // }
 // else {                                                                 // external else 
-//     if (a > b && a > c)                                                // we can  give if condition in else part
+//     if ((a > b) && (a > c))                                                // we can  give if condition in else part
 //     {
 //             console.log("a is the biggest number'")                    // statement
 //     }
-//     else if (b > a && b > c) {                                         // else if condition
+//     else if ((b > a) && (b > c)) {                                         // else if condition
 //             console.log("b is the biggest number'")                    // statement  
 //     }
 //     else                                                               // else
@@ -69,16 +69,16 @@
 // var c = Math.sqrt((Math.pow((c2-c1),2))*(Math.pow((a2-a1)),2))          //calculating distance between 'c' and 'a' using distance formula
 
 
-// if (a + b <= c || a + c <= b || b + c <= a){                            // In traingle sum of two sides should not be less than or equal to third side
+// if ((a + b <= c) || (a + c <= b) || (b + c <= a)){                            // In traingle sum of two sides should not be less than or equal to third side
 //     console.log("it is not a triangle")                                 // statement
 
 // }
 // else 
 //     {
-//         if (a == b && b == c){                                          // If three sides are equal(both conditions should be true in AND)
+//         if ((a == b) && (b == c)){                                          // If three sides are equal(both conditions should be true in AND)
 //             console.log("Equilateral Triangle");
 //         }
-//         else if (a == b || b == c || c == a) {                          // If any two sides are equal(one should be true in OR) 
+//         else if ((a == b) || (b == c) || (c == a)) {                          // If any two sides are equal(one should be true in OR) 
 //             console.log("Isosceles Triangle");
 //         }
     
@@ -174,19 +174,19 @@
 // let D = b * b - 4 * a * c;                                                                          //to find the nature of roots
 
 // if (D > 0) {                                                                                        //condition: if roots are > 0
-//     root1 = (-b + Math.sqrt(D)) / (2 * a);                                                          //Intializing  root1
-//     root2 = (-b - Math.sqrt(D)) / (2 * a);                                                          //Intializing  root1
+//     root1 = ((-b) + Math.sqrt(D)) / (2 * a);                                                          //Intializing  root1
+//     root2 = ((-b) - Math.sqrt(D)) / (2 * a);                                                          //Intializing  root1
 //     console.log(`The roots of quadratic equation ${root1} and ${root2} are real and different`);    //statement
 // }
 
 // else if (D == 0) {                                                                                  //condition: if roots are equal to zero 
-//     root1 = root2 = -b / (2 * a);
+//     root1 = root2 = (-b) / (2 * a);
 //     console.log(`The roots of quadratic equation  ${root1} and ${root2} are real and equal`);       //statement
 // }
 
 
 // else {                                                                                              //else case
-//     let realPart = (-b / (2 * a)).toFixed(2);                                                       //Intializing real part
+//     let realPart = ((-b) / (2 * a)).toFixed(2);                                                       //Intializing real part
 //     let imagPart = (Math.sqrt(-D) / (2 * a)).toFixed(2);                                            //Intializing  imaginary part
 
 //     console.log(
