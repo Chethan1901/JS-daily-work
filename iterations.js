@@ -230,7 +230,7 @@
 // }
 
 
-// var a = "";
+// var a = "";                                                             //pattern
 // for (let i = 1; i <= 5; i++) {
 //   for (let j = 1; j <= i; j++) {
 //    a+=j;
@@ -247,6 +247,7 @@
 //     console.log(b)
 // }
 
+
 // var a ="1"
 // for(let i =0;i<=10;i++){
 
@@ -254,7 +255,7 @@
 //     console.log(a)
 // }
 
-// a = '';
+// a = '';                                                                            //pattern Rtriangle
 // for(let i=1; i<=5; i++){
 //   for(let j=1; j<=5-i; j++){
 //     a += ' ';
@@ -272,4 +273,38 @@
 // console.log(count)
 // }
 
- 
+// n =10                                                                                        //print multiples
+//  for(let i=1;i<=n;i++){
+//     a=""
+
+//   for(let j=1;j<=i;j++){
+//     // console.log(i*j)
+//   a = a + (i*j) + " "
+
+//   }
+//    console.log(a)
+//  }
+
+// for(let i =1; i<=10;i++){                                                                        //break usage
+//     if(i==5)continue;
+//     console.log(i)
+// }
+
+// i=1
+// while(i<=10){
+//     console.log(i)
+//     if(i==5){
+//         break;
+//     }
+//     i++;
+// }
+
+// i=1
+// while(i<=10){
+//     if(i==5){
+//         i++
+//        continue;
+//     }
+//     console.log(i)
+//     i++;
+// }
