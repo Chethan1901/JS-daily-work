@@ -11,6 +11,8 @@
 //     cube(3)
 
     
+
+
 //ques-2
 //Write a  program that will accept the base and height of a triangle and compute the area?
 
@@ -20,6 +22,10 @@
 // }
 
 // area(8,46)
+
+
+
+
 
 //ques-3
 //Write a  program to compute the distance between the points (x1, y1) and (x2, y2)?
@@ -31,15 +37,30 @@
 
 // distance(-2,1,3,13)
 
+
+
 //ques-4
+//Write a  program to calculate body mass index?
+
+// function BMI(w,h){
+//     let bmi;
+//     bmi = ((w)/(h*h))
+//     console.log(bmi)
+// }
+
+// BMI(75,3)
+
+
+
+//ques-5
 //Write a  program to filter the positive numbers from a list?
 
 // function positive(){
-// var empty=''
+// var empty=[]
 // let numArr = [-1,9,-8,2,-9,4,0,20,1];
 // for(i=0;i<=numArr.length;i++){
 // if(numArr[i]>=0){
-// empty=empty+numArr[i]+' '
+// empty.push(numArr[i])
 // }
 // }
 // console.log(empty)
@@ -47,7 +68,10 @@
 
 // positive()
 
-//ques-5 
+
+
+
+//ques-6
 //Write a  program to test whether a passed letter is a vowel or not?
 
 // let char = "a"

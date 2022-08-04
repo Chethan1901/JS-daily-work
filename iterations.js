@@ -255,17 +255,17 @@
 //     console.log(a)
 // }
 
-a = '';                                                                            //pattern Rtriangle
-for(let i=1; i<=5; i++){
-  for(let j=1; j<=5-i; j++){
-    a += ' ';
-  }
-  for(let k=1; k<=i; k++){
-    a += '*';
-  }
-  a += '\n';
-}
-console.log(a)
+// a = '';                                                                            //pattern Rtriangle
+// for(let i=1; i<=5; i++){
+//   for(let j=1; j<=5-i; j++){
+//     a += ' ';
+//   }
+//   for(let k=1; k<=i; k++){
+//     a += '*';
+//   }
+//   a += '\n';
+// }
+// console.log(a)
 
 // count = 0
 // for(let i=1; i<=5; i++){
