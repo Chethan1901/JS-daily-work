@@ -136,3 +136,7 @@
 // console.log(x)
 
 
+// function  num(n){
+//     if(n==0) return false
+// }
+// console.log(num (0))
