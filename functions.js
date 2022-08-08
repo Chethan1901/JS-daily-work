@@ -37,7 +37,7 @@
 // }
 // }
 
-// palindrome("abcba")
+// palindrome("wow")
 
 
 
@@ -116,3 +116,7 @@
 //     }
 //     console.log(a)
 // }
+
+
+
+    
