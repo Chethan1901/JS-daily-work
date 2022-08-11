@@ -187,6 +187,8 @@
 //     }
 // }
 
+// console.log(fibonacci(10))
+
 // const D = 10;
 
 // if(D <=0) {
@@ -274,5 +276,4 @@
 // 
 
 
-
-
+// multiply two numbers without using * operator

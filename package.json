@@ -1,0 +1,19 @@
+{
+  "name": "js-daily-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chethan1901/JS-daily-work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chethan1901/JS-daily-work/issues"
+  },
+  "homepage": "https://github.com/Chethan1901/JS-daily-work#readme"
+}
