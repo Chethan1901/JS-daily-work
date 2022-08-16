@@ -74,7 +74,7 @@
 //ques-6
 //Write a  program to test whether a passed letter is a vowel or not?
 
-// let char = "a"
+// let char = "o"
 
 // function vowel(){
 //     let check= ['a','e','i','o','u']

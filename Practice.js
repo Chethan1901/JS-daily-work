@@ -140,3 +140,52 @@
 //     if(n==0) return false
 // }
 // console.log(num (0))
+
+
+let A  = "HELLO"
+A.split()
+b = []
+c=[]
+for(i=0;i<A.length;i++){
+  b.push(A.charCodeAt(i))
+}
+// console.log(b)
+for(i=0;i<A.length;i++){
+    c.push(b[i].toString(2))
+  }
+//   console.log(c)
+  empty = []
+  for (i=0;i<c.length;i++){
+  var n = '0'
+  n += c[i]
+  empty.push(n)
+}
+console.log(empty)
+
+
+let d = empty.join("")
+let e = (d.match(/.{1,6}/g));
+console.log(d)
+
+for (i=0;i<e.length;i++){
+    n = "0"
+while(e[i].length<6){
+    // console.log(e[i])
+    e[i]+= n
+// count++
+}
+}
+console.log(e)
+
+f = []
+for (i=0;i<e.length;i++){
+    f.push(parseInt(e[i],2))
+}
+console.log(f)
+
+let G = []
+let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345789+/"
+for(i=0;i<e.length;i++){
+G.push(str.charAt(e[i]))
+}
+console.log(str.charAt(e[i]))

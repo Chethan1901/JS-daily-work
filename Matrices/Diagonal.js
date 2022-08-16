@@ -36,26 +36,3 @@
 
 
 
-// var newString = ' '
-// console.log(newString.length)
-
-// console.log(1 && true)
-
-// function getMultiples(str) {
-//     var digits = str.split('');
-//     var digitsDiv3 = digits.map(function(number) {
-//     return number / 3;
-//     });
-//     console.log(digitsDiv3);
-//     var wholeNumbers = digitsDiv3.filter(function(number) {
-//         console.log(number.toString().indexOf('.'))
-//     return number.toString().indexOf('.') === -1;
-//     });
-//     console.log(wholeNumbers);
-//     var multiplesOf3 = wholeNumbers.map(function(number) {
-//     return number * 3;
-//     });
-//     console.log(multiplesOf3)
-//     return multiplesOf3;
-//     }
-//     console.log(getMultiples('0123456789')[2])

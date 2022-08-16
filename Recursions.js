@@ -1,7 +1,7 @@
 //// 1. Fibinocci series?
 
 // var n=5
-// let fib = (n) => {
+// // let fib = (n) => {
 // function fib(n){
 //     if((n < 2 ) && (n>=0)) {
 //         return n;
