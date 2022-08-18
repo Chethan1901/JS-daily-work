@@ -40,6 +40,10 @@
 // }
 
 
+let create = new Array(10)
+console.log(create)
+
+
 
 // Date
 
@@ -142,50 +146,83 @@
 // console.log(num (0))
 
 
-let A  = "HELLO"
-A.split()
-b = []
-c=[]
-for(i=0;i<A.length;i++){
-  b.push(A.charCodeAt(i))
-}
-// console.log(b)
-for(i=0;i<A.length;i++){
-    c.push(b[i].toString(2))
-  }
-//   console.log(c)
-  empty = []
-  for (i=0;i<c.length;i++){
-  var n = '0'
-  n += c[i]
-  empty.push(n)
-}
-console.log(empty)
+// let A  = "HELLO"
+// A.split()
+// b = []
+// c=[]
+// for(i=0;i<A.length;i++){
+//   b.push(A.charCodeAt(i))
+// }
+// // console.log(b)
+// for(i=0;i<A.length;i++){
+//     c.push(b[i].toString(2))
+//   }
+// //   console.log(c)
+//   empty = []
+//   for (i=0;i<c.length;i++){
+//   var n = '0'
+//   n += c[i]
+//   empty.push(n)
+// }
+// console.log(empty)
 
 
-let d = empty.join("")
-let e = (d.match(/.{1,6}/g));
-console.log(d)
+// let d = empty.join("")
+// let e = (d.match(/.{1,6}/g));
+// console.log(d)
 
-for (i=0;i<e.length;i++){
-    n = "0"
-while(e[i].length<6){
-    // console.log(e[i])
-    e[i]+= n
-// count++
-}
-}
-console.log(e)
+// for (i=0;i<e.length;i++){
+//     n = "0"
+// while(e[i].length<6){
+//     // console.log(e[i])
+//     e[i]+= n
+// // count++
+// }
+// }
+// console.log(e)
 
-f = []
-for (i=0;i<e.length;i++){
-    f.push(parseInt(e[i],2))
-}
-console.log(f)
+// f = []
+// for (i=0;i<e.length;i++){
+//     f.push(parseInt(e[i],2))
+// }
+// console.log(f)
 
-let G = []
-let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345789+/"
-for(i=0;i<e.length;i++){
-G.push(str.charAt(e[i]))
-}
-console.log(str.charAt(e[i]))
+// let G = []
+// let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345789+/"
+// for(i=0;i<e.length;i++){
+// G.push(str.charAt(e[i]))
+// }
+// console.log(str.charAt(e[i]))
+
+
+// function base64_decode(s)
+// {
+//   var base64chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+//   // remove/ignore any characters not in the base64 characters list
+//   //  or the pad character -- particularly newlines
+//    s = s.replace(new RegExp('[^'+base64chars.split("")+'=]', 'g'), "");
+
+//   // replace any incoming padding with a zero pad (the 'A' character is zero)
+//   var p = (s.charAt(s.length-1) == '=' ? 
+//           (s.charAt(s.length-2) == '=' ? 'AA' : 'A') : ""); 
+//   var r = ""; 
+//   s = s.substr(0, s.length - p.length) + p;
+
+//   // increment over the length of this encoded string, four characters at a time
+//   for (var c = 0; c < s.length; c += 4) {
+
+//     // each of these four characters represents a 6-bit index in the base64 characters list
+//     //  which, when concatenated, will give the 24-bit number for the original 3 characters
+//     var n = (base64chars.indexOf(s.charAt(c)) << 18) + (base64chars.indexOf(s.charAt(c+1)) << 12) +
+//             (base64chars.indexOf(s.charAt(c+2)) << 6) + base64chars.indexOf(s.charAt(c+3));
+
+//     // split the 24-bit number into the original three 8-bit (ASCII) characters
+//     r += String.fromCharCode((n >>> 16) & 255, (n >>> 8) & 255, n & 255);
+//   }
+//    // remove any zero pad that was added to make this a multiple of 24 bits
+//   return r.substring(0, r.length - p.length);
+// }
+
+// console.log(base64_decode("chethan"))
+
+
