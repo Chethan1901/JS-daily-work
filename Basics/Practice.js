@@ -40,8 +40,8 @@
 // }
 
 
-let create = new Array(10)
-console.log(create)
+// let create = new Array(10)
+// console.log(create)
 
 
 
@@ -226,3 +226,16 @@ console.log(create)
 // console.log(base64_decode("chethan"))
 
 
+// let A = ""
+// for(let i=65 ; i<91 ; i++){
+// A += String.fromCharCode(i)
+// }
+// for(let i=97 ; i<123 ; i++){
+// A += String.fromCharCode(i)
+// }
+// for(let i=48 ; i<58 ; i++){
+// A += String.fromCharCode(i)
+// }
+// A += String.fromCharCode(43)
+// A += String.fromCharCode(47)
+// console.log(A)
