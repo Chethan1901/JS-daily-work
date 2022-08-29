@@ -3,12 +3,12 @@ import readlinsync from "readline-sync"
 
 function Decode(){
 
-let Base64String = readlinsync.question("Enter the Base64String:- ") 
+let Base64String = readlinsync.question("Decoding......... \nEnter the string:-  ") 
 
 if(Base64String.length !== 0)
 {
     let SplitString = Base64String.split("") 
-console.log("the given string:- ",SplitString)
+// console.log("the given string:- ",SplitString)
 
 
 // let Base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
@@ -26,7 +26,7 @@ for(let i=48 ; i<58 ; i++){
 Base64 += String.fromCharCode(43)
 Base64 += String.fromCharCode(47)
 
-console.log(typeof(A))
+// console.log(typeof(A))
 
 let check = /^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/
 
@@ -40,10 +40,10 @@ if (check.test(Base64String)){
             }
         }
     }
-    console.log("the Base64 values:- ",value)
+    // console.log("the Base64 values:- ",value)
     
     let binaryCodes = value.map((num) => num.toString(2));
-    console.log("Binary Codes: ", binaryCodes);
+    // console.log("Binary Codes: ", binaryCodes);
     
     for (let i=0;i<binaryCodes.length;i++){
         let n = "0"
@@ -51,19 +51,19 @@ if (check.test(Base64String)){
             binaryCodes[i] = n + binaryCodes[i]
         }
         }
-        console.log("6bit:- ",binaryCodes)
+        // console.log("6bit:- ",binaryCodes)
     
     let oneBinary = binaryCodes.join("").split("");
-    console.log(oneBinary)
+    // console.log(oneBinary)
     
     let binaryCode8Bit = [];
       while (oneBinary.length != 0) {
         binaryCode8Bit.push(oneBinary.splice(0, 8).join(""));
       }
-      console.log("Binaries in 8 Bits are : ", binaryCode8Bit);
+    //   console.log("Binaries in 8 Bits are : ", binaryCode8Bit);
     
     let BitoDec = binaryCode8Bit.map((num) => parseInt(num,2));
-    console.log("Decimals:- ", BitoDec);
+    // console.log("Decimals:- ", BitoDec);
     
     let lastElement = BitoDec[BitoDec.length - 1];
     let sum = 0 
@@ -76,10 +76,11 @@ if (check.test(Base64String)){
     }
     
     let chars = BitoDec.map((num) => String.fromCharCode(num));
-    console.log("Decimals:- ", chars);
+    // console.log("Decimals:- ", chars);
     
     let final = chars.join("")
-    console.log("final :-",final)
+    // console.log("final :-",final)
+    return final;
 
 }
 else{
@@ -94,7 +95,7 @@ else {
 
 }
 
-Decode()
+// Decode()
 
 export default Decode
 
