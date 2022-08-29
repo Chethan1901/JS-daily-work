@@ -5,11 +5,28 @@ function Decode(){
 
 let Base64String = readlinsync.question("Enter the Base64String:- ") 
 
-let SplitString = Base64String.split("") 
+if(Base64String.length !== 0)
+{
+    let SplitString = Base64String.split("") 
 console.log("the given string:- ",SplitString)
 
 
-let Base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+// let Base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+
+let Base64 = ""
+for(let i=65 ; i<91 ; i++){
+    Base64 += String.fromCharCode(i)
+}
+for(let i=97 ; i<123 ; i++){
+    Base64 += String.fromCharCode(i)
+}
+for(let i=48 ; i<58 ; i++){
+    Base64 += String.fromCharCode(i)
+}
+Base64 += String.fromCharCode(43)
+Base64 += String.fromCharCode(47)
+
+console.log(typeof(A))
 
 let check = /^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/
 
@@ -66,11 +83,18 @@ if (check.test(Base64String)){
 
 }
 else{
-    console.log(`invalid`)
+    console.log(`you have entered invalid input, please enter valid input`)
+    Decode();
 }
+}
+else {
+    console.log(`Input cannot be empty`)
+    Decode();
 }
 
-// Decode()
+}
+
+Decode()
 
 export default Decode
 
